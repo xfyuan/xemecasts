@@ -87,7 +87,7 @@
 
 {{HTML::script('packages/jquery/dist/jquery.min.js')}}
 {{HTML::script('packages/bootstrap/dist/js/bootstrap.min.js')}}
-{{HTML::script('packages/isotope/jquery.isotope.min.js')}}
+{{HTML::script('packages/isotope/dist/isotope.pkgd.min.js')}}
 {{HTML::script('packages/jquery-prettyPhoto/js/jquery.prettyPhoto.js')}}
 {{HTML::script('packages/DirectionAwareHoverEffect/js/jquery.hoverdir.js')}}
 {{HTML::script('packages/retinajs/dist/retina.min.js')}}
