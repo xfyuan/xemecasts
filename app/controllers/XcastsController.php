@@ -58,6 +58,7 @@ class XcastsController extends \BaseController {
 			return Redirect::back()->withErrors($validator)->withInput();
 		}
         $data['rendered_notes'] = Markdown::string(Input::get('notes'));
+        $data['poster'] = 'casts/poster/_default.jpg';
 
 		Xcast::create($data);
 

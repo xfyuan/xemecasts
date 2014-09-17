@@ -5,7 +5,7 @@ class Xcast extends \Eloquent {
 	// Add your validation rules here
 	public static $rules = [
         'title' => 'required|between:8,64',
-        'author' => 'required|between:8,20',
+        'author' => 'required|between:2,20',
         'levels' => 'required|integer|between:0,1',
         'description' => 'required|between:8,300',
         'github' => 'url',
