@@ -4,9 +4,9 @@ class Series extends \Eloquent {
 
 	// Add your validation rules here
 	public static $rules = [
-		'title' => 'required|between:8,50',
-		'summary' => 'required|between:8,500',
-		'purpose' => 'required|between:8,300',
+		'title' => 'required|between:8,100',
+		'purpose' => 'required|between:8,500',
+		'summary' => 'required|min:10',
 	];
 
 	// Don't forget to fill this array
