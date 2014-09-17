@@ -1,0 +1,18 @@
+{
+  "name": "xemecasts",
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.2.0",
+    "gulp-jshint": "^1.8.2",
+    "gulp-livereload": "^1.5.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^0.7.2",
+    "gulp-size": "^0.3.1",
+    "gulp-uglify": "^0.3.0",
+    "gulp-util": "^2.2.14"
+  },
+  "dependencies": {}
+
+}

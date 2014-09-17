@@ -1,0 +1,9 @@
+.user {
+  padding-top: 50px;
+
+  &__signin, &__signup, &__forgot-password, &__reset-password {
+    max-width: 500px;
+    padding: 2em;
+    margin: 0 auto;
+  }
+}

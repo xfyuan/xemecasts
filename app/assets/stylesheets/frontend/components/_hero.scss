@@ -1,0 +1,28 @@
+.hero {
+  background-color: $xe-blue;
+  min-height: 550px;
+  text-align: center;
+
+  h3, h5 {
+    color: $xe-white;
+    font-weight: 400;
+  }
+
+  h1 {
+    color: $xe-white;
+    margin-bottom: 25px;
+  }
+
+  &__filtered-image{
+    position: relative;
+    display: inline-block;
+    border-top-left-radius: 1.6em;
+    border-top-right-radius: 1.6em;
+    border: 1.5em solid rgba($xe-white, .3);
+    border-bottom: 1em solid rgba($xe-white, .3);
+
+    &__hidden {
+      opacity: 0;
+    }
+  }
+}

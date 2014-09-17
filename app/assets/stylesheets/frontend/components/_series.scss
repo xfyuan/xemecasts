@@ -1,0 +1,13 @@
+.series {
+  &__logo {
+    font-size: 9em;
+    color: chocolate;
+    background: rgba(20, 167, 120, 0.24);
+  }
+  h3 {
+    height: 3.2em;
+  }
+  &__summary {
+    height: 5.4em;
+  }
+}

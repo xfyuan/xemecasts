@@ -1,0 +1,76 @@
+!!! 5
+%html
+  %head
+    %meta(charset="utf-8")
+    %title Haml test
+    != HTML.style("packages/bootstrap/dist/css/bootstrap.min.css")
+    != HTML.style("packages/font-awesome/css/font-awesome.min.css")
+    != HTML.style("packages/jquery-prettyPhoto/css/prettyPhoto.css")
+    != HTML.style("packages/hoverex/hoverex.css")
+    != HTML.style("assets/css/xemecasts.min.css")
+
+    != HTML.script("packages/modernizr/modernizr.js")
+
+  %body
+    .navbar.navbar-default.navbar-fixed-up(role="navigation")
+      .container
+        .navbar-header
+          %button.navbar-toggle(data-toggle="collapse" data-target=".navbar-collapse")
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand(href="#")
+            %i.fa.fa-ra
+            Xemecasts
+
+        .navbar-collapse.collapse.navbar-right
+          %ul.nav.navbar-nav
+            %li.active
+              %a(href="#") Home
+            %li
+              %a(href="#") Browse
+            %li
+              %a(href="#") About
+            %li.dropdown
+              %a.dropdown-toggle(href="#" data-toggle="dropdown")
+                Learn
+                %b.caret
+              %ul.dropdown-menu
+                %li
+                  %a(href="#") Lessons
+                %li
+                  %a(href="#") Series
+                %li
+                  %a(href="#") What's new
+
+
+    .hero
+      .container
+        .row
+          .col-lg-8.col-lg-offset-2
+            %h3 Start your work from these screencasts.
+            %h1 Keep Our Hearts For Developers
+            %h5 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            %h5 More Lorem Ipsum added here too.
+          .col-lg-8.col-lg-offset-2.hero__filtered-image
+            :css
+              .hero__filtered-image {
+                background: url("/img/flower.jpg") no-repeat center center;
+              }
+            %img.hero__filtered-image__hidden(src="/img/flower.jpg")
+
+    - block main
+      %p demo text
+      = HTML.style('ss.css')
+      = Request.root
+
+!=  HTML.script("packages/jquery/dist/jquery.min.js")
+!=  HTML.script("packages/bootstrap/dist/js/bootstrap.min.js")
+!=  HTML.script("packages/isotope/jquery.isotope.min.js")
+!=  HTML.script("packages/jquery-prettyPhoto/js/jquery.prettyPhoto.js")
+!=  HTML.script("packages/DirectionAwareHoverEffect/js/jquery.hoverdir.js")
+!=  HTML.script("packages/retinajs/dist/retina.min.js")
+!=  HTML.script("packages/hoverex/jquery.hoverex.min.js")
+!=  HTML.script("assets/js/xemecasts.min.js")
+

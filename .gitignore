@@ -1,0 +1,17 @@
+/bootstrap/compiled.php
+/app/config/mail.php
+/vendor
+/node_modules
+/public/assets
+/public/casts
+/public/packages
+/.sass-cache
+composer.phar
+composer.lock
+*.mp4
+*.log
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
+tags

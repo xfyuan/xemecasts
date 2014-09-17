@@ -1,0 +1,56 @@
+.btn-theme {
+  color: $xe-white;
+  background-color: $xe-iron-blue;
+  border-color: $xe-iron-blue;
+  margin: 4px;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  .open .dropdown-toggle.btn-theme {
+    color: $xe-white;
+    background-color: $xe-blue;
+    border-color: $xe-blue;
+  }
+}
+
+.dmbutton {
+  background:rgba(0, 0, 0, 0);
+  border: 1px solid $xe-white;
+  color: $xe-white;
+  border-radius: 2px;
+  padding-top: 1.025rem;
+  padding-right: 2.25rem;
+  letter-spacing:0.85px;
+  padding-bottom: 1.0875rem;
+  padding-left: 2.25rem;
+  font-size: 1.55rem;
+  cursor: pointer;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 300ms ease-out;
+  -webkit-appearance: none;
+  font-weight: normal !important;
+
+  &:hover,
+  &:active,
+  &:focus{
+    color: $xe-white;
+    background-color: #222222;
+    border-color: $xe-white;
+  }
+}
+
+.hline {
+	border-bottom: 2px solid $xe-iron-blue;
+}
+
+.hline-w {
+	border-bottom: 2px solid $xe-white;
+	margin-bottom: 25px;
+}

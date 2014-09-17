@@ -1,0 +1,55 @@
+.navbar {
+	min-height: 70px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+
+.navbar-default {
+  background-color: $xe-iron-blue;
+  border-color: transparent;
+
+  .navbar-header {
+    .navbar-brand {
+      font-family: $xe-logo-font, sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      color: $xe-white;
+    }
+  }
+
+  .navbar-nav {
+    li {
+      a {
+        color: $xe-white;
+        font-weight: 700;
+        font-size: 12px;
+
+        &:hover {
+          color: $xe-blue;
+        }
+      }
+    }
+
+    .active {
+      a,
+      a:hover,
+      a:focus {
+        color: $xe-blue;
+        background-color: transparent;
+      }
+    }
+  }
+
+  .dropdown-menu {
+    background: $xe-iron-blue;
+
+    li {
+      a {
+        color: $xe-white;
+        font-weight: 700;
+        font-size: 12px;
+      }
+    }
+  }
+
+}

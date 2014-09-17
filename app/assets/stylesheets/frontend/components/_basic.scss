@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0px;
+}
+
+body {
+	background: $xe-white-gray;
+	margin: 0;
+	height: 100%;
+	color: $xe-iron-blue;
+	font-family: $xe-normal-font, sans-serif;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $xe-special-font, sans-serif;
+	font-weight: 700;
+}
+
+p {
+	padding: 0;
+	margin-bottom: 12px;
+	font-family: $xe-normal-font, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: $xe-iron-blue;
+	margin-top: 10px;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+a,button {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	transition: background-color .4s linear, color .4s linear;
+}
+a:hover,
+a:focus {
+	text-decoration: none;
+	color:#01b2fe;
+}
+
+::selection {
+	color: $xe-white;
+	text-shadow:none;
+	background:#2B2E31;
+}
+

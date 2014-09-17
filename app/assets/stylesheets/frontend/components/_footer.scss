@@ -1,0 +1,23 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: $xe-iron-blue;
+
+  p {
+    color: $xe-gray;
+  }
+
+  h4 {
+    color: $xe-white;
+  }
+
+  i {
+    font-size: 30px;
+    color: $xe-gray;
+    padding-right: 25px;
+
+    &:hover {
+      color: $xe-blue
+    }
+  }
+}
