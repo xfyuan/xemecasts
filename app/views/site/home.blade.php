@@ -44,7 +44,7 @@
   <h3>LATEST CASTS</h3>
 
   <div class="casts-centered">
-    <div class="casts-thumbnails">
+    <div class="casts-thumbnails" class="js-isotope" data-isotope-options=''>
 
     @if ($xcasts->count())
 

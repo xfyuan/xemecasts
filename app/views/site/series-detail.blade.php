@@ -13,7 +13,7 @@
                     <h3 class="panel-title">{{ $series->title }}</h3>
                 </div>
                 <div class="panel-body">
-                    <p class="text-center"><img src="/casts/poster/_default_series.jpg" alt="..."></p>
+                    <p class="text-center"><img src="/img/_default_series.jpg" alt="..."></p>
                     <p class="lead">{{ $series->purpose }}</p>
                     <p>{{ $series->summary }}</p>
                 </div>

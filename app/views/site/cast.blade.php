@@ -8,7 +8,7 @@
 <div id="blue">
   <div class="container">
     <div class="row">
-        <h3>{{$xcast->title}}</h3>
+        <h3>[<i class="fa fa-user"></i> {{$xcast->author}}] {{$xcast->title}}</h3>
     </div><!-- /row -->
   </div> <!-- /container -->
 </div><!-- /blue -->
@@ -19,7 +19,7 @@
     <div class="col-md-10">
 
         @if ($xcast->levels > 0 && ! Entrust::can('view_premium_casts'))
-            <img src="/casts/poster/_disabled.jpg" alt="">
+            <img src="/img/_disabled.jpg" alt="">
 
         @else
           <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" width="1024" height="576"
@@ -37,7 +37,7 @@
 <br/>
 <div class="container">
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-11">
             <div class="panel panel-warning">
               <div class="panel-heading">
                 <h3 class="panel-title">Casts Notes</h3>
