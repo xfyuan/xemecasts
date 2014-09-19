@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         <h3>Start your works from these video casts.</h3>
-        <h1>Keep Learning As Thoughtworks Dev</h1>
+        <h1>Keep Learning As ThoughtWorks Dev</h1>
         <h5>New technology popularizing, skills & tips learning, new oritation training... and more</h5>
         <h5>Just for Chengdu Thoughtworkers. Hope each of you enjoy it!</h5>
       </div>
